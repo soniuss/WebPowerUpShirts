@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PowerUp Shirts - Tienda de camisetas frikis con diseños exclusivos de películas, animes y series">
+        <meta name="keywords" content="PowerUp Shirts, camisetas, frikis, anime, películas, series, moda, diseño">
+        <meta name="author" content="Sonia Arias Salinas">
+        <title>PowerUp Shirts</title>
+        <style>
+           
+            header {
+                padding-top: 0.5%;
+            }
+            body {
+                background-color: #002651;
+            }
+            #texto-logo{
+                font-family: impact;
+                color: #d4452d;
+            }
+            .fondo-pagina {
+                background-color: #002651;
+                color: #ffffff;
+                padding: 20px;
+                text-align: center;
+            }
+            #intro {
+                color: white;
+                padding-top: 3%;
+            }
+        
+        #barra-nav {
+            background-color:#303030;
+            color: #f5b356;
+            padding-left: 5%;
+        }
+        #collapsibleNavbar{
+            color: #f5b356;
+
+        }
+        #collapsibleNavbar ul li:hover {
+            background-color: #283b5b;
+        } 
+        #collapsibleNavbar ul li a{
+            color: #f5b356;
+        }
+        .titulo{
+            color:#f5b356;
+            text-shadow: 2px 2px #d4452d;
+        }
+        #faq {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #283b5b;
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+        .accordion-button{
+            background-color:#283b5b;
+            color: #f5b356;
+        }
+        .accordion-collapse{
+            background-color:#283b5b;
+            color: #f5b356;
+        }
+        #informacion{
+            text-align:center;
+            font-size: 2rem;
+            opacity: 55%;
+        }
+
+        #barra-footer{
+            color: #f5b356;
+            padding-top: 15%;
+
+            padding-left:5%;
+
+        }
+        #contenidosfooter li a{
+            color: #f5b356;
+            
+        }
+        #contenidosfooter li a:hover{
+            color: #d4452d;
+        }
+        
+
+        </style>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </head>
+    <header>
+        <div class="row">
+                    <div id="logoCabecera" class="col-lg-12 text-center" >
+                     <img src="logocamisetas-circulo.png" alt="PowerUp Shirts Logo" width="60" height="60" class="d-inline-block align-top">
+                <p id="texto-logo"class="display-4 d-inline-block">PowerUp Shirts</p>
+                <img src="fuegoanimated.gif" width="60" height="60" class="d-inline-block align-top">
+                </div>
+        </div>
+    </header>
+    <body>
+
+        <!-- Navbar que se despliegue a partir de tamaño mediano -->
+        <nav id="barra-nav" class="navbar navbar-expand-md navbar-dark border rounded">
+  <div class="container-fluid">
+    <div class="navbar-brand  d-none d-sm-block d-md-none" href="#">Menú</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div  class="collapse navbar-collapse " id="collapsibleNavbar">
+      <ul class="navbar-nav row container-fluid">
+    <li class="nav-item col-md-2 rounded" id="Inicio">
+      <a class="nav-link" href="index.html">Inicio 🤖</a><!--1. INICIO-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="camisetas">
+      <a class="nav-link" href="Galeria.html">Camisetas 👀</a><!--2. PRODUCTOS DISP-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="blog">
+      <a class="nav-link" href="Blog.html">Blog 💫</a><!--BLOG-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="commingsoon">
+      <a class="nav-link" href="commingSoon.html">Comming Soon 💥</a><!--LISTA DETALLADA DE PRODUCTOS-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="instagram">
+      <a class="nav-link" href="InstagramOutfits.html">Instagram Outfits ✨</a><!--GALERIA FOTOS CLIENTES-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="reservas">
+      <a class="nav-link" href="FormularioReserva.html">Reservas 💥</a><!--FORMULARIO RESERVAS-->
+    </li>
+  </ul>
+    </div>
+  </div>
+
+</nav>
+
+<div id="faq">
+    <h2 class=" titulo text-center mb-4">Preguntas Frecuentes (FAQ)</h2>
+
+    <div class="accordion" id="preguntasFrecuentes">
+        <!-- Pregunta 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="pregunta1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#respuesta1" aria-expanded="false" aria-controls="respuesta1">
+                    ¿Cómo hago un pedido?
+                </button>
+            </h2>
+            <div id="respuesta1" class="accordion-collapse collapse" aria-labelledby="pregunta1"
+                 data-bs-parent="#preguntasFrecuentes">
+                <div class="accordion-body">
+                    Para realizar un pedido, simplemente navega por nuestra tienda en línea, selecciona los productos que
+                    deseas comprar y sigue los pasos del proceso de pago.
+                </div>
+            </div>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="pregunta2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#respuesta2" aria-expanded="false" aria-controls="respuesta2">
+                    ¿Cuáles son las opciones de pago disponibles?
+                </button>
+            </h2>
+            <div id="respuesta2" class="accordion-collapse collapse" aria-labelledby="pregunta2"
+                 data-bs-parent="#preguntasFrecuentes">
+                <div class="accordion-body">
+                    Aceptamos pagos con tarjeta de crédito y débito. También ofrecemos opciones de pago a través de
+                    servicios en línea como PayPal.
+                </div>
+            </div>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="pregunta3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#respuesta3" aria-expanded="false" aria-controls="respuesta3">
+                    ¿Puedo modificar o cancelar mi pedido después de realizarlo?
+                </button>
+            </h2>
+            <div id="respuesta3" class="accordion-collapse collapse" aria-labelledby="pregunta3"
+                 data-bs-parent="#preguntasFrecuentes">
+                <div class="accordion-body">
+                    Lamentablemente, una vez que se ha realizado un pedido, no podemos garantizar modificaciones o
+                    cancelaciones. Te recomendamos revisar cuidadosamente tu pedido antes de confirmarlo.
+                </div>
+            </div>
+        </div>
+
+        <!-- Pregunta 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="pregunta4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#respuesta4" aria-expanded="false" aria-controls="respuesta4">
+                    ¿Cómo puedo realizar un seguimiento de mi pedido?
+                </button>
+            </h2>
+            <div id="respuesta4" class="accordion-collapse collapse" aria-labelledby="pregunta4"
+                 data-bs-parent="#preguntasFrecuentes">
+                <div class="accordion-body">
+                    Una vez que tu pedido haya sido enviado, recibirás un correo electrónico con información de seguimiento.
+                    Puedes utilizar esta información para rastrear el estado y la ubicación de tu pedido.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer con otra barra de navegación para las demás opciones-->  
+    <div id="footer" class="mt-6">
+    <footer>
+  <nav id="barra-footer" class="navbar navbar-expand-sm rounded">
+  <div class="container-fluid">
+    <div  class="collapse navbar-collapse ">
+      <ul id="contenidosfooter" class="navbar-nav row container-fluid">
+        <p id="informacion"class="text-50"> Información</p>
+    <li class="nav-item col-md-2 rounded" id="Inicio">
+      <a class="nav-link" href="sobreNosotros.html">Sobre Nosotros</a><!--2 SOBRE NOSOTROS-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="camisetas">
+      <a class="nav-link" href="Contacto.html">Contacto </a><!--9. CONTACTO-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="blog">
+      <a class="nav-link" href="FAQ.html">FAQ</a><!--10 FAQ-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="commingsoon">
+      <a class="nav-link" href="Sostenibilidad.html">Sostenibilidad y compromiso</a><!-- 11 SOSTENIBILIDAD Y COMPROMISO-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="instagram">
+      <a class="nav-link" href="TerminosyCondiciones.html">Terminos y Condiciones</a><!-- 12 TERMINOS Y CONDICIONES-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="reservas">
+      <a class="nav-link" href="Calendario.html">Eventos</a><!--6CALENDARIO EVENTOS-->
+    </li>
+  </ul>
+    </div>
+  </div>
+</nav>
+    </footer>
+
+</html>

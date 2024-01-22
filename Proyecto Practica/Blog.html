@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PowerUp Shirts - Tienda de camisetas frikis con diseños exclusivos de películas, animes y series">
+        <meta name="keywords" content="PowerUp Shirts, camisetas, frikis, anime, películas, series, moda, diseño">
+        <meta name="author" content="Sonia Arias Salinas">
+        <title>PowerUp Shirts</title>
+        <style>
+           
+            header {
+                padding-top: 0.5%;
+            }
+            body {
+                background-color: #002651;
+            }
+            #texto-logo{
+                font-family: impact;
+                color: #d4452d;
+            }
+            .fondo-pagina {
+                background-color: #002651;
+                color: #ffffff;
+                padding: 20px;
+                text-align: center;
+            }
+            #intro {
+                color: white;
+                padding-top: 3%;
+            }
+        
+        #barra-nav {
+            background-color:#303030;
+            color: #f5b356;
+            padding-left: 5%;
+        }
+        #collapsibleNavbar{
+            color: #f5b356;
+
+        }
+        #collapsibleNavbar ul li:hover {
+            background-color: #283b5b;
+        } 
+        #collapsibleNavbar ul li a{
+            color: #f5b356;
+        }
+       
+       * {
+          box-sizing: border-box;
+        }
+
+
+        body {
+          font-family: Arial;
+          padding: 20px;
+          
+        }
+
+        .header {
+          padding: 30px;
+          color:#f5b356 ;
+          text-align: center;
+          background: #283b5b;
+        }
+        .header h2{
+            font-size: 60px;
+            font-weight: bold;
+        }
+
+        .leftcolumn {   
+          float: left;
+          width: 75%;
+        }
+
+
+        .rightcolumn {
+          float: left;
+          width: 25%;
+          padding-left: 20px;
+        }
+
+        .fakeimg {
+          background-color: #002651;
+          width: 100%;
+          padding: 20px;
+        }
+
+
+        .card {
+           background-color: #faebd7;
+           padding: 20px;
+           margin-top: 20px;
+        }
+        .card h2 {
+            color: #d4452d;
+        }
+        .card h2 h5{
+            color: #d4452d;
+        }
+        .card h3 {
+            color: #d4452d;
+        }
+
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .linksredes{
+            color: black;
+        }
+        .linksredes:hover {
+            color: #d4452d;
+        }
+
+        #informacion{
+            text-align:center;
+            font-size: 2rem;
+            opacity: 55%;
+            text-decoration: none;
+        }
+
+        #barra-footer{
+            color: #f5b356;
+            padding-top: 15%;
+            padding-left:5%;
+
+        }
+        #contenidosfooter li a{
+            color: #f5b356;
+            font: ;
+        }
+        #contenidosfooter li a:hover{
+            color: #d4452d;
+        }
+        @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+        
+
+        </style>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </head>
+    <header>
+        <div class="row">
+                    <div id="logoCabecera" class="col-lg-12 text-center" >
+                     <img src="logocamisetas-circulo.png" alt="PowerUp Shirts Logo" width="60" height="60" class="d-inline-block align-top">
+                <p id="texto-logo"class="display-4 d-inline-block">PowerUp Shirts</p>
+                <img src="fuegoanimated.gif" width="60" height="60" class="d-inline-block align-top">
+                </div>
+        </div>
+    </header>
+    <body>
+
+        <!-- Navbar que se despliegue a partir de tamaño mediano -->
+        <nav id="barra-nav" class="navbar navbar-expand-md navbar-dark border rounded">
+  <div class="container-fluid">
+    <div class="navbar-brand  d-none d-sm-block d-md-none" href="#">Menú</div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div  class="collapse navbar-collapse " id="collapsibleNavbar">
+      <ul class="navbar-nav row container-fluid">
+    <li class="nav-item col-md-2 rounded" id="Inicio">
+      <a class="nav-link" href="index.html">Inicio 🤖</a><!--1. INICIO-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="camisetas">
+      <a class="nav-link" href="Galeria.html">Camisetas 👀</a><!--2. PRODUCTOS DISP-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="blog">
+      <a class="nav-link" href="Blog.html">Blog 💫</a><!--BLOG-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="commingsoon">
+      <a class="nav-link" href="commingSoon.html">Comming Soon 💥</a><!--LISTA DETALLADA DE PRODUCTOS-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="instagram">
+      <a class="nav-link" href="InstagramOutfits.html">Instagram Outfits ✨</a><!--GALERIA FOTOS CLIENTES-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="reservas">
+      <a class="nav-link" href="FormularioReserva.html">Reservas 💥</a><!--FORMULARIO RESERVAS-->
+    </li>
+  </ul>
+    </div>
+  </div>
+
+</nav>
+<div class="header">
+  <h2>PowerUp Shirts Blog</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Últimas Tendencias en Moda Geek</h2>
+      <h5>Title description, Enero 14, 2024</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>¡Descubre las últimas tendencias en moda Geek!</p>
+      <p>Explorar las últimas tendencias en moda geek es sumergirse en un universo de creatividad y expresión personal. Las camisetas con estampados de personajes icónicos y referencias a la cultura pop son elementos clave. Combina lo retro con lo moderno, fusionando colores vibrantes y diseños audaces. La moda geek no solo es una declaración de estilo, sino también una conexión con la nostalgia y la comunidad que comparte intereses similares. ¡Atrévete a destacar con prendas que cuentan historias y celebran tu amor por lo geek! 🌟👾👕</p>
+    </div>
+    <div class="card">
+      <h2>Consejos para Combinar Camisetas Frikis</h2>
+      <h5>Title description, Diciembre 20, 2023</h5>
+      <div class="fakeimg" style="height:200px;"></div>
+      <p>Combinar camisetas frikis con estilo es todo un arte. </p>
+      <p>Opta por equilibrar la extravagancia de la camiseta con piezas neutras, como jeans o pantalones simples. Juega con capas, como una chaqueta de cuero o una camisa abierta, para agregar dimensión al conjunto. Elige accesorios que complementen el tema geek sin abrumar. Calzado cómodo, como zapatillas, completa un look casual y moderno. ¡Diviértete expresando tu geek interior con confianza y originalidad! 🚀👕✨</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Sobre Nosotros</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Si quieres conocernos más entra en: </p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Redes Sociales</h3>
+      <a href="#"class=" linksredes text-decoration-none"><p >Instagram</p></a>
+      <a href="#" class=" linksredes text-decoration-none"><p>Tik Tok</p></a>
+      <a href="#" class="linksredes text-decoration-none"><p>Twitter</p></a>
+
+    </div>
+  </div>
+</div>
+
+
+ <!-- Footer con otra barra de navegación para las demás opciones-->  
+    <div id="footer" class="mt-6">
+    <footer>
+  <nav id="barra-footer" class="navbar navbar-expand-sm rounded">
+  <div class="container-fluid">
+    <div  class="collapse navbar-collapse ">
+      <ul id="contenidosfooter" class="navbar-nav row container-fluid">
+        <p id="informacion"class="text-50 text-decoration-none"> Información</p>
+    <li class="nav-item col-md-2 rounded" id="Inicio">
+      <a class="nav-link" href="sobreNosotros.html">Sobre Nosotros</a><!--2 SOBRE NOSOTROS-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="camisetas">
+      <a class="nav-link" href="Contacto.html">Contacto </a><!--9. CONTACTO-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="blog">
+      <a class="nav-link" href="FAQ.html">FAQ</a><!--10 FAQ-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="commingsoon">
+      <a class="nav-link" href="Sostenibilidad.html">Sostenibilidad y compromiso</a><!-- 11 SOSTENIBILIDAD Y COMPROMISO-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="instagram">
+      <a class="nav-link" href="TerminosyCondiciones.html">Terminos y Condiciones</a><!-- 12 TERMINOS Y CONDICIONES-->
+    </li>
+    <li class="nav-item col-md-2 rounded" id="reservas">
+      <a class="nav-link" href="Calendario.html">Eventos</a><!--6CALENDARIO EVENTOS-->
+    </li>
+  </ul>
+    </div>
+  </div>
+</nav>
+    </footer>
+
+</html>

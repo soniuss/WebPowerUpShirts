@@ -1,0 +1,15 @@
+
+body {
+  background-color: #002651;
+  color: #fff;
+}
+
+    .fondo-pagina {
+      background-color: #28c7fa; 
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    #bienvenido {
+      color: white;
+    }
